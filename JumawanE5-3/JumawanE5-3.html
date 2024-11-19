@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Make your own story</title>
+        <style>
+            body{
+                text-align: center;
+                background-color: white;
+            }
+            div.one{
+                text-align: center;
+                font-family: tahoma;
+                
+            }
+            textarea{
+                resize: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <h1>Tell us your story:</h1>
+            <textarea id="story" rows="30" cols="100">It was a dark and stormy night...</textarea>
+            <br>
+            <label>Find What:</label>
+                <input type = "text" id= "findThis">
+            <br>
+            <label>Replace With:</label>
+                <input type="text" id="replaceWith">
+            <br>
+            <br>
+            <button type="button" onclick="replace()">Replace</button>
+            <button type="button" onclick="clearTxt()">Clear</button>
+            <button type="button" onclick="undoTxt()">Undo</button>
+            <button type="button" onclick="txtCount()">Count</button>
+            <button type="button" onclick="srcTxt()">Search</button>
+            <button type="button" onclick="BIG()">UpperCase</button>
+            <button type="button" onclick="smoll()">LowerCase</button>
+            <button type="button" onclick="includeTxt()">Include</button>
+            <br>
+            <h2>Select Theme</h2>
+            <button type="button" onclick="lightMode()">Light Mode</button>
+            <button type="button" onclick="darkMode()">Dark Mode</button>
+            <button type="button" onclick="winterTheme()">Winter Theme</button>
+            <button type="button" onclick="autumnTheme()">Autumn Theme</button>
+            <button type="button" onclick="summerTheme()">Summer Theme</button>
+
+            <script src="JumawanE5-3.js"></script>
+        </div1>
+    </body>
+</html>
