@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="JumawanE5-1.css">
+    </head>
+    <script src="JumawanE5-1.js"></script>
+    <body>
+        <h1>Will your rug fit?</h1>
+        <p>Each rug is 2 square meters*</p>
+
+        <label>Room Length</label>
+            <input type = "number" id = "roomLength"/>
+
+        <label>Room Width</label>
+            <input type = "number" id = "roomWidth"/>
+        
+        <button type="button" onclick="calculate();">calculate</button>
+
+        <h2>Room Area : <span id = "roomArea">0</span> square meters</h2>
+        <h2>Amount of Rugs that will fit : <span id ="rugAmount">0</span></h2>
+
+        <button type="button" onclick="reset();">Reset</button>
+    </body>
+</html>
